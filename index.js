@@ -21,12 +21,13 @@ var global = (function(){ return this })();
 
 module.exports = function(fn) {
   var id = n++;
+  var called;
 
   function once(){
     // no receiver
     if (this == global) {
-      if (once.called) return;
-      once.called = true;
+      if (called) return;
+      called = true;
       return fn.apply(this, arguments);
     }
 
