@@ -1,5 +1,5 @@
 {
-  "name": "once",
+  "name": "once-component",
   "description": "Make a method callable only once",
   "version": "0.0.1",
   "keywords": [],
@@ -9,7 +9,9 @@
     "mocha": "~1.8.1"
   },
   "license": "MIT",
-  "scripts": [
-    "index.js"
-  ]
+  "component": {
+    "scripts": {
+      "once/index.js": "index.js"
+    }
+  }
 }
