@@ -1,0 +1,15 @@
+{
+  "name": "once",
+  "description": "Make a method callable only once",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {
+    "better-assert": "~1.0.0",
+    "mocha": "~1.8.1"
+  },
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
